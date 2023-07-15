@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    background-color: #FFFFFF;
+    margin: 100px;
+
+}
+
+.pic {
+    width: 80%;
+}
+
+.info {
+    margin-top: 150px;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.791);
+    margin-top: 10px;
+    border: none;
+    height: 30px;
+    width: 180px;
+    color: white;
+    font-size: 13px;
+}
+
+.title {
+    font-family: sans-serif;
+    word-spacing: 10px;
+    line-height: 50px;
+    font-weight: 1200px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+        margin: 100px;
+    }
+    .image{
+        position: relative;
+    }
+
+    .pic {
+        width: 100%;
+    }
+    .info {
+        margin-top: 30px;
+    }
+
+    .btn {
+        border: none;
+        height: 25px;
+        width: 170px;
+        color: white;
+        font-size: 12px;
+    }
+    
+}
